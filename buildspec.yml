@@ -19,7 +19,7 @@ phases:
 #    base-directory: 'target/surefire-reports' # Location of the reports 
 artifacts:
   files:
-    - target/spring-petclinic-*.jar
+    - target/spring-petclinic-2.7.3.jar
     - appspec.yml
     - scripts/runapp.sh
   discard-paths: yes
